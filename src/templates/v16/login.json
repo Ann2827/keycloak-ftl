@@ -1,0 +1,4 @@
+[
+  { "name": "login.ftl", "description": "Login form" },
+  { "name": "register.ftl", "description": "Register form" }
+]

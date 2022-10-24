@@ -1,0 +1,20 @@
+{
+  "mocksPath": "./mocks",
+//  "mocks": {
+//    "login": {
+//      "url": "456"
+//    }
+//  },
+  "customFtl": {
+    "my_theme": {
+      "login": [
+        {
+          "name": "custom.ftl",
+          "description": "My custom form"
+        }
+      ]
+    }
+  },
+  "themesPath": "./themes",
+  "keycloakVersion": "16"
+}
