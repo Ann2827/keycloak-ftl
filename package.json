@@ -1,0 +1,54 @@
+{
+  "name": "keycloak-ftl",
+  "version": "0.0.1",
+  "description": "Keycloak .ftl frontend demo helper",
+  "author": "Ann Bystrova <ann.bystrova96@mail.ru>",
+  "contributors": [
+    "Ann Bystrova <ann.bystrova96@mail.ru>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ann2827/keycloak-ftl/issues"
+  },
+  "homepage": "https://github.com/Ann2827/keycloak-ftl#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ann2827/keycloak-ftl.git"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "keycloak-ftl": "./src/bin/index.js"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "files": [
+    "dist",
+    "!example",
+    "!themes"
+  ],
+  "scripts": {
+    "start": "",
+    "build": "",
+    "test": "test"
+  },
+  "keywords": [
+    "keycloak",
+    "ftl",
+    "frontend",
+    "templates",
+    "layout"
+  ],
+  "engines": {
+    "node": "^14.18.0",
+    "npm": "^8.4.0"
+  },
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "child_process": "^1.0.2",
+    "cross-spawn": "^7.0.3",
+    "open": "^8.4.0",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
